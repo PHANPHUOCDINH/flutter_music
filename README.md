@@ -1,7 +1,7 @@
-# spotify_clone
+# music_app
 
-Flutter spotify clone
 
+Flutter Music App
 ## Getting Started
 
 This project is a starting point for a Flutter application.
