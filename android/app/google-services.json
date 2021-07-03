@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "664596957990",
+    "project_id": "flutter-spotify-clone",
+    "storage_bucket": "flutter-spotify-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664596957990:android:7cf6f25d182efd90968fe7",
+        "android_client_info": {
+          "package_name": "com.spotify.clone.spotify_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664596957990-otkp2ipt915arq515v5hg3psmc37dvms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spotify.clone.spotify_clone",
+            "certificate_hash": "e2d79dbadc750af558bde1c9df2aad4d1e392320"
+          }
+        },
+        {
+          "client_id": "664596957990-r9olt6rbbam9vpa5ntdpa1ki3ojss3i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ2l35xjKR4N9EV9KPqpA3LJZYRQGkZ6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664596957990-r9olt6rbbam9vpa5ntdpa1ki3ojss3i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
