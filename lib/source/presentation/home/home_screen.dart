@@ -32,22 +32,33 @@ class _HomeScreenState extends State<HomeScreen> {
                   colorAppBar: Colors.transparent,
                   isBack: false,
                   actions: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
-                      children: [
-                        Text(
-                          "${Data.city ?? "Error"}",
-                          style: AppStyles.DEFAULT_REGULAR_BOLD.copyWith(
-                            color: Colors.white,
+                    GestureDetector(
+                      onTap: () {
+                        if (Data.weatherVi != null && Data.weatherEn != null) {
+                          Navigator.pushNamed(
+                            context,
+                            Routers.notification,
+                            arguments: Data.weatherEn.weather[0].description,
+                          );
+                        }
+                      },
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Text(
+                            "${Data.city ?? "Error"}",
+                            style: AppStyles.DEFAULT_REGULAR_BOLD.copyWith(
+                              color: Colors.white,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "${weather > 0 ? Data.weatherVi.weather[0].description : "Error"}, ${temp != null ? (temp.temp - 273.15).toInt() : 0}\u2070C",
-                          style: AppStyles.DEFAULT_REGULAR_BOLD.copyWith(
-                            color: Colors.white,
+                          Text(
+                            "${weather > 0 ? Data.weatherVi.weather[0].description : "Error"}, ${temp != null ? (temp.temp - 273.15).toInt() : 0}\u2070C",
+                            style: AppStyles.DEFAULT_REGULAR_BOLD.copyWith(
+                              color: Colors.white,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ],
                 ),

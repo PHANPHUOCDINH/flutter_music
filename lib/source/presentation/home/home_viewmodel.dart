@@ -131,7 +131,7 @@ class HomeViewModel extends BaseViewModel {
   int header3 = 0;
 
   init() {
-    if (Data.weatherVi != null && !Data.isSentNotification) {
+    if (Data.weatherVi != null && Data.weatherEn != null && !Data.isSentNotification) {
       NotificationHelper.initNotificationManager(
         onSelectNotification: (payload) => Navigator.pushNamed(
           context,
