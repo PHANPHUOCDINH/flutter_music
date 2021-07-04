@@ -1,6 +1,6 @@
 # music_app
 Api: 
--openweathermap.org
+-https://openweathermap.org/current
 -https://developers.deezer.com/api
 
 Flutter Music App
