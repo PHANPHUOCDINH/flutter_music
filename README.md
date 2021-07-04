@@ -1,5 +1,5 @@
 # Flutter Music App
-Đồ án môn SE405-Chuyên đề Mobile & Pervasive Computing
+Đồ án môn SE405-Chuyên đề Mobile & Pervasive Computing  
 Chức năng:
 - Tìm kiếm nhạc, nghệ sĩ
 - Phát nhạc(trong và ngoài app)
